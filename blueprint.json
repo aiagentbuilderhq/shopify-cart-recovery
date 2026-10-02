@@ -1,0 +1,12 @@
+{
+  "name": "Shopify Abandoned Cart Recovery \u2014 Personalized AI Email + Slack + Sheets",
+  "description": "Shopify Webhook (or Sheets mock) \u2192 Gemini personalized email \u2192 Gmail + Slack + Sheets \u2014 5 APIs",
+  "modules": [
+    "Shopify: Watch Abandoned Checkouts (Shopify API Webhook) OR Sheets: Watch New Rows (Sheets API Mock)",
+    "Gemini: Generate Personalized Recovery Email (Gemini API + MCP)",
+    "Gmail: Send Recovery Email (Gmail API)",
+    "Slack: Alert #sales (Slack API)",
+    "Sheets: Log Recovery (Sheets API)"
+  ],
+  "note": "For portfolio free demo, mock Shopify via Sheets API \u2014 real client swap to Shopify API webhook, same nodes. Prompt: Customer {{Name}} abandoned {{Cart Items}} worth {{Value}}. Write personalized recovery email."
+}
